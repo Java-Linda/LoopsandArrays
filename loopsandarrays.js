@@ -48,7 +48,7 @@ console.log(string + " has " + consonants.length + " consonants and " + vowels.l
 nums = [1, 2, 3]
 reverseNums = []
 
-for (var i = arrNums.length -1; i >= 0; i--){
+for (let i = nums.length -1; i >= 0; i--){
     reverseNums.push(i);
 }
 
@@ -59,7 +59,7 @@ console.log(reverseNums)
 // printing Fizz for numbers divisable by 3 and Buzz for numbers divsable by 5
 
 function fizzBuzz(100){
-    for(var i = 0; i < 100; i++){
+    for(let i = 0; i < 100; i++){
         if (i % 3 === 0 && i % 5 !== 0){
             console.log(Fizz);
         }
@@ -68,4 +68,3 @@ function fizzBuzz(100){
         }
     }
 }
-
